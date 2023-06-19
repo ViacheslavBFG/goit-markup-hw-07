@@ -34,6 +34,7 @@ button {
 
 
 
+
 .link {
     text-decoration: none;
 }
@@ -191,4 +192,52 @@ svg:not(:root) {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-first);
+}
+
+
+
+
+@media screen and (max-width: 1157px) {
+    .activities {
+        display: none;
+    }
+}
+
+
+
+/* Секция команда!!! */
+
+.good-guys {
+    background-color: var(--button-bg-color);
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+}
+
+section {
+    display: block;
+}
+
+.team {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--portfolio-header-color);
+    margin-bottom: 72px;
+
+}
+
+.team-list {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 72px;
+
+
 }
