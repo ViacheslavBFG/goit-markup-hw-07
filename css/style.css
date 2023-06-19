@@ -160,12 +160,26 @@ button {
 }
 
 
-@media screen and (max-width: 1157px) {.img-sectiontwo-svg {
-    display: none;
-}
+@media screen and (max-width: 1157px) {
+    .img-sectiontwo-svg {
+        display: none;
+    }
 }
 
 svg:not(:root) {
     overflow-clip-margin: content-box;
     overflow: hidden;
+}
+
+.skill-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--portfolio-header-color);
+    margin-bottom: 8px;
+
+
 }
