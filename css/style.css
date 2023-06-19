@@ -316,3 +316,8 @@ section {
 
 
 }
+
+.team-link-icon:hover,
+.team-link-icon:focus {
+    background-color: var(--header-link-hf);
+}
