@@ -1,3 +1,65 @@
+/* cammon class */
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--headre-adress-link);
+    background-color: var(#FFFFFF);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
+
 :root {
     --button-bg-color: #F4F4FD;
     --portfolio-header-color: #2e2f42;
@@ -68,21 +130,12 @@
 
 }
 
+
+
+
+
+
+
+
 /* Section №2 Stra  Punc Dili Tec */
 
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
-
-.skill-list-icon {
-    display: none;
-}
