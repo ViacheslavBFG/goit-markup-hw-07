@@ -84,7 +84,11 @@
 
     width: calc((100% - 24px) / 2);
 
+    max-width: 396px;
 
 
+}
 
+.skill-section {
+    text-align: start;
 }
