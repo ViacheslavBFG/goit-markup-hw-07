@@ -1,1 +1,40 @@
+:root {
+    --button-bg-color: #F4F4FD;
+    --portfolio-header-color: #2e2f42;
+    --header-background: #FFFFFF;
+    --header-link-hf: #404BBF;
+    --headre-adress-link: #434455;
+    --header-logo-main: #4D5AE5;
+    --border-portfolio: #e7e9fc;
+    --customers-link-color: #8e8f99;
+    --Color-link1: #31d0aa;
+}
 
+.container {
+    max-width: 428px;
+    padding: 0 16px;
+
+}
+
+.hero-greetings {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--header-background);
+}
+
+
+.hero {
+    background: var(--portfolio-header-color);
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 428px;
+    margin: 0 auto;
+
+}

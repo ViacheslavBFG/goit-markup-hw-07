@@ -1,0 +1,29 @@
+:root {
+    --button-bg-color: #F4F4FD;
+    --portfolio-header-color: #2e2f42;
+    --header-background: #FFFFFF;
+    --header-link-hf: #404BBF;
+    --headre-adress-link: #434455;
+    --header-logo-main: #4D5AE5;
+    --border-portfolio: #e7e9fc;
+    --customers-link-color: #8e8f99;
+    --Color-link1: #31d0aa;
+}
+
+
+.container {
+    max-width: 768px;
+
+
+}
+
+.hero-greetings {
+
+    
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--header-background);
+
+}
