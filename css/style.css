@@ -310,5 +310,9 @@ section {
 }
 
 
+.team-svg-icon {
+
+    fill: var(--button-bg-color);
+
 
 }
