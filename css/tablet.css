@@ -93,8 +93,13 @@
     text-align: start;
 }
 
-.skill-description {
+.skill-description {}
+
+/* Секция команда!!! */
+
+.team-list {
+
+    gap: 64px 24px;
 
 
-    
 }
