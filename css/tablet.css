@@ -78,3 +78,13 @@
 
 
 }
+
+
+.skill-item {
+
+    width: calc((100% - 24px) / 2);
+
+
+
+
+}
