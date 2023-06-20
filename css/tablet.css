@@ -105,3 +105,60 @@
     width: calc((100% - 48px) / 3);
 
 }
+
+
+
+/* FOOTER!!! */
+
+
+
+
+.footer-Xbox {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.header-logo-footer {
+
+
+    margin-bottom: 0px;
+    align-items: start;
+
+
+}
+
+.social-media-fot {
+    margin-bottom: 0px;
+
+}
+
+.social-media {
+
+    text-align: start;
+
+}
+
+.subscribe-inf {
+    display: flex;
+    gap: 24px;
+
+}
+
+.subscribe-text {
+
+    text-align: start;
+
+}
+
+.footer-input {
+
+    width: 264px;
+    margin-bottom: 0px;
+
+}
+
+.subscriber-button-sub {
+
+    margin: 0px;
+}
