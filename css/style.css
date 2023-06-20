@@ -277,11 +277,11 @@ section {
 }
 
 .team-item {
-    width: calc((100%-24px)/2);
+    width: calc((100% - 24px)/2);
     background-color: var(--header-background);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px px;
-    max-width: 100%;
+    /* max-width: 100%;  */
 }
 
 .team-box {
@@ -319,6 +319,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding: 0;
 
 }
 
