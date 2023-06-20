@@ -166,27 +166,38 @@ img {
 
 /* SECTION 1 */
 
-.hero {
-    background: var(--portfolio-header-color);
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 1440px;
-    margin: 0 auto;
 
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
+
+.overlay {
+    max-width: 1440px;
+    background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/background/heroback.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .overlay {
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/background/heroback@2x.jpg);
+    }
+}
+
+
 
 .hero-greetings {
 
-   
-    
-    
-    color: var(--header-background);
-    max-width: 496px;
-    margin: auto;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
+
+
 
 
 }
@@ -194,11 +205,21 @@ img {
 
 
 
-.hero-button:hover,
-.hero-button:focus {
-    background-color: var(--header-link-hf);
-    border: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Section 2 */
 
