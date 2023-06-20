@@ -1,3 +1,19 @@
+@media screen and (max-width: 1157px) {
+
+    .good-guys .container,
+    .cust .container,
+    .footer .container {
+        max-width: 584px;
+    }
+
+}
+
+
+
+
+
+
+
 :root {
     --button-bg-color: #F4F4FD;
     --portfolio-header-color: #2e2f42;

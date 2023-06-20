@@ -171,41 +171,6 @@ button {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Section №2 skill */
 
 .skill {
@@ -449,6 +414,12 @@ section {
 
 }
 
+.customers-link:hover,
+.customers-link:focus {
+    border-color: 1px solid var(--header-link-hf);
+    color: var(--header-link-hf);
+}
+
 
 
 /* FOOTER!!! */
@@ -480,6 +451,7 @@ section {
     text-transform: uppercase;
     color: var(--header-logo-main);
     margin-bottom: 16px;
+    border: none;
 
 
 }
