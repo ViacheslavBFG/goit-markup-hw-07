@@ -6,7 +6,9 @@
         max-width: 584px;
     }
 
-}@media screen and (max-width: 1157px) {
+}
+
+@media screen and (max-width: 1157px) {
 
     .good-guys .container,
     .cust .container,
