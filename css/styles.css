@@ -451,8 +451,14 @@ button {
     text-align: center;
 }
 
-.footer-social {
+/* .footer-social {
     margin-bottom: 72px;
+} */
+
+.footer-box{
+
+    margin-bottom: 72px;
+    
 }
 
 .footer-card-list {
@@ -490,9 +496,15 @@ button {
     text-align: center;
 }
 
+
+
+
+
+
 .footer-form-label {
     display: block;
     margin-bottom: 16px;
+   
 }
 
 .footer-modal-input {

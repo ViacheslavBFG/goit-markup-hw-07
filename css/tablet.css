@@ -72,8 +72,8 @@
 .header-adress-link {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.17;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.04em;
     color: var(--text-first);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -119,6 +119,22 @@
                 rgba(46, 47, 66, 0.7)),
             url(../images/background/tablet-bg@2x.jpg);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
 
 .hero-title {
@@ -230,4 +246,16 @@
 .modal {
     max-width: 408px;
     padding: 72px 24px 24px 24px;
+}
+
+
+
+
+
+
+
+
+.footer-form-label {
+    
+    margin-bottom:0;
 }
